@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #f8faf9;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +35,22 @@
   to {
     transform: rotate(360deg);
   }
+}
+.titulo{
+  color: #364b6e;
+  font-size: 80px;
+}
+.subTitulo{
+  color: #3f4957;
+  font-size: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+button{
+  background-color: #23255d;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 40px;
+  width: 80px;
+  margin: none;
+  border-radius: 5px;
 }
